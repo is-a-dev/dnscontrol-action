@@ -8,7 +8,7 @@ LABEL "com.github.actions.description"="Deploy your DNS configuration using DNSC
 LABEL "com.github.actions.icon"="cloud"
 LABEL "com.github.actions.color"="blue"
 
-ENV DNSCONTROL_VERSION="4.13.0"
+ENV DNSCONTROL_VERSION="4.14.0"
 ENV USER=dnscontrol-user
 
 RUN apk -U --no-cache upgrade && \
